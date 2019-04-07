@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    <h1>My Main Page</h1>
+    <h1>Página Principal</h1>
 @endsection

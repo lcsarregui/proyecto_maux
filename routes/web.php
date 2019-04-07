@@ -11,6 +11,28 @@
 |
 */
 
+
+
 Route::get('/', 'PagesController@home');
 
 Route::get('/contact', 'PagesController@contact');
+
+
+Route::resource('users', 'UserController');
+/*
+Route::get('/users', 'UserController@index');
+
+Route::post('/users', 'UserController@store');
+
+Route::get('/users/create', 'UserController@create');
+
+Route::get('/users/{user}', 'UserController@show');
+
+Route::get('/users/{user}/edit', 'UserController@edit');
+
+Route::patch('/users/{user}', 'UserController@update');
+
+Route::delete('/users/{user}', 'UserController@destroy');
+*/
+
+
